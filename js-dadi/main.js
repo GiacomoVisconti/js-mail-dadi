@@ -6,10 +6,10 @@ console.log(pc_Number, user_number);
 if(pc_Number > user_number){
     alert("Mi spiace, ha vinto il PC")
     
-} if(pc_Number < user_number){
+} else if(pc_Number < user_number){
     alert("Congratulazioni, hai vinto")
 
-}else if(pc_Number == user_number){
+}else{
     alert("Pareggio, i numeri sono uguali")
 }
 
